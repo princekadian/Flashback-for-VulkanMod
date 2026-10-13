@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "flashback_for_vulkanmod",
+  "version": "1.0.0",
+  "name": "Flashback for VulkanMod",
+  "description": "Makes the Flashback replay mod work with VulkanMod: replay editor UI, video export and Flashback's shaders. Does nothing when VulkanMod isn't installed.",
+  "authors": ["Prince Kadian"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/flashback-for-vulkanmod",
+    "sources": "https://github.com/princekadian/Flashback-for-VulkanMod",
+    "issues": "https://github.com/princekadian/Flashback-for-VulkanMod/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["flashback_for_vulkanmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "flashback": "0.39.10",
+    "vulkanmod": ">=0.5.6"
+  }
+}

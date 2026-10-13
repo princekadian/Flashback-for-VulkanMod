@@ -1,0 +1,10 @@
+{
+    "vertex": "flashback_for_vulkanmod:core/blit_screen_round_alpha",
+    "fragment": "flashback_for_vulkanmod:core/blit_screen_round_alpha",
+    "samplers": [
+        { "name": "InSampler" }
+    ],
+    "uniforms": [
+        { "name": "ColorModulator", "type": "float", "count": 4, "values": [ 1.0, 1.0, 1.0, 1.0 ] }
+    ]
+}

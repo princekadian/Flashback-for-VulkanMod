@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "flashbackforvulkanmod.mixin",
+  "plugin": "flashbackforvulkanmod.mixin.VulkanCompatMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CustomImGuiImplGl3Mixin",
+    "ExportJobMixin",
+    "ReplayUIMixin",
+    "SaveableFramebufferMixin",
+    "ShaderManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
