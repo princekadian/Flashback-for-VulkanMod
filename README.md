@@ -1,6 +1,6 @@
 # Flashback for VulkanMod
 
-**Download:** [Modrinth](https://modrinth.com/mod/flashback-for-vulkanmod)
+**Download:** [Modrinth](https://modrinth.com/mod/flashback-for-vulkan)
 
 Add-on for [Flashback](https://modrinth.com/mod/flashback) that makes it work with
 [VulkanMod](https://modrinth.com/mod/vulkanmod) on Minecraft 1.21.4.
